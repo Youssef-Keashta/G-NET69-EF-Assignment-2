@@ -12,5 +12,8 @@ namespace G_NET69_EF_Assignment_2.Models
         public string? Biography { get; set; }
         public string? WebsiteUrl { get; set; }
         public string? LogoUrl { get; set; }
+
+        public int OrganizerId { get; set; }
+        public Organizer Organizer { get; set; } = null!;
     }
 }

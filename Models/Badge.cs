@@ -13,5 +13,8 @@ namespace G_NET69_EF_Assignment_2.Models
         public string Number { get; set; } = null!;
         public DateTime IssueDate { get; set; }
         public BadgeTier Tier { get; set; }
+
+        public int AttendeeId { get; set; }
+        public Attendee Attendee { get; set; } = null!;
     }
 }
